@@ -1,0 +1,159 @@
+/**
+ * Negative margin and positive padding allows links in header to scroll to the correct position.
+ * See https://stackoverflow.com/a/58890319
+ */
+#about-me {
+  display: flex;
+  margin: -30px auto 80px auto;
+  padding-top: 60px;
+  width: 80%;
+}
+
+#button-spacing {
+  margin: 20px 15px 5px 15px;
+  text-align: center;
+  width: 110px;
+}
+
+#center-intro {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.center-row {
+  justify-content: center;
+  display: flex;
+}
+
+#comment {
+  margin-bottom: 10px;
+  max-width: 575px;
+  width: 60%;
+}
+
+.comment-box {
+  outline: 1px solid #ced4da;
+}
+
+#comment-form {
+  display: none;
+}
+
+.comment-name {
+  color: gray;
+  margin-bottom: 0px;
+}
+
+#comments-container {
+  margin-bottom: 15px;
+}
+
+/**
+ * Negative margin and positive padding allows links in header to scroll to the correct position.
+ * See https://stackoverflow.com/a/58890319
+ */
+#contact-me {
+  margin: -30px auto 50px auto;
+  padding: 60px 0 100px 0;
+  width: 80%;
+}
+
+.content {
+  margin: 0 auto;
+  width: 80%;
+}
+
+#dark-color {
+  background-color: #343a40;
+  display: flex;
+}
+
+#drop-a-comment {
+  margin-top: 40px;
+  display: none;
+}
+
+#ga-tech {
+  color: #f8f9fa;
+  text-align: center;
+}
+
+#greeting-container {
+  margin-top: 20px;
+  min-height: 60px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#intro {
+  background-attachment: fixed;
+  background-image: url(/images/road.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+#left-div {
+  justify-content: left;
+  width: 50%;
+}
+
+#login-here {
+  margin-top: 40px;
+  display: none;
+}
+
+#map {
+  height: 500px;
+}
+
+#map-section {
+  margin: 30px auto 80px auto;
+  width: 80%;
+}
+
+.nav-link-spacing {
+  margin: 0 5px;
+}
+
+#profile {
+  float: right;
+  max-width: 450px;
+  width: 80%;
+}
+
+#project-container {
+  color: #f8f9fa;
+  margin: 0 auto 100px auto;
+  width: 80%;
+}
+
+#project-header {
+  padding-top: 30px;
+}
+
+/**
+ * Negative margin and positive padding allows links in header to scroll to the correct position.
+ * See https://stackoverflow.com/a/58890319
+ */
+#projects {
+  margin-top: -60px;
+  min-height: 200px;
+  padding-top: 60px;
+}
+
+#right-div {
+  justify-content: right;
+  width: 50%;
+}
+
+#zoe-barth {
+  color: #f8f9fa;
+  font-size: 6rem;
+  text-align: center;
+}
